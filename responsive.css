@@ -1,0 +1,174 @@
+/* Tablet */
+@media screen and (max-width: 1023px) {
+    header {
+        padding: 0 1rem;
+    }
+
+    .hero {
+        height: unset;
+    }
+
+    .slide-container {
+        height: 75%;
+        position: relative;
+    }
+
+    .slide-title>h3 {
+        font-size: 9rem;
+    }
+
+    .slide-img {
+        padding-top: 15rem;
+        padding-right: 0.5rem;
+    }
+
+    .slide-description>p {
+        font-size: 2rem;
+    }
+
+    .slide-control {
+        position: absolute;
+        right: 25%;
+        top: 85%;
+        z-index: 100;
+    }
+
+    .hero-btn {
+        font-size: 5rem;
+    }
+
+    .hero-txt {
+        right: -17%;
+        top: 35%;
+    }
+}
+
+@media (max-width: 950px) {
+    .main-menu>li {
+        margin-left: 3rem;
+    }
+
+    .hero {
+        padding-top: 11rem;
+    }
+
+    .hero-txt {
+        font-size: 10rem;
+    }
+
+    .hero-btn {
+        font-size: 4rem;
+        padding: 1rem 4rem;
+        line-height: 85%;
+    }
+
+    .slide-description,
+    .slide-btn {
+        margin-top: 3rem;
+    }
+
+    .slide-control {
+        top: 88%;
+    }
+
+    .section {
+        padding: 12rem 0 0;
+    }
+
+    .section-content {
+        padding: 5rem 2rem 0;
+    }
+
+    .special-section>.section-title {
+        padding: 2rem 3rem;
+    }
+
+    .special-section .main-title {
+        font-size: 6rem;
+    }
+
+    .special-img {
+        width: 70%;
+        position: absolute;
+        left: 7rem;
+        bottom: -25rem;
+    }
+}
+
+@media (max-width: 760px) {
+    header {
+        padding: 0 1rem;
+        height: 8rem;
+    }
+
+    .main-menu {
+        flex-direction: column;
+        display: none;
+
+    }
+
+    .user-menu {
+        position: absolute;
+        right: 40%;
+    }
+
+    .navbar_menu {
+        display: unset;
+        top: 15%;
+        right: 5%;
+    }
+
+    .navbar_menu.active {
+        display: none;
+    }
+
+    .navbar_close {
+        top: 15%;
+        right: 5%;
+    }
+
+    .slide {
+        flex-direction: column;
+    }
+
+    .slide-title>h3 {
+        font-size: 7rem;
+    }
+
+    .slide-txt {
+        padding-right: 3rem;
+        width: 100%;
+    }
+
+    .hero-txt {
+        right: -15%;
+        top: 60%;
+    }
+
+    .slide-img {
+        width: 100%;
+
+        padding: 3rem 5rem 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slide-control {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        position: unset;
+    }
+}
+
+@media (max-width: 565px) {
+    .hero-txt {
+        right: -11%;
+        font-size: 8rem;
+    }
+
+    .slide-title>h3 {
+        font-size: 6rem;
+    }
+
+}
